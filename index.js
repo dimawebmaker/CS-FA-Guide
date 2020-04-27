@@ -44,10 +44,10 @@ module.exports = function Tera_Guide(mod) {
 		myDeBuff           = null,  // 业火/寒气
 		bossWord           = null;  // 愤怒/恐惧
 	// 控制命令
-	mod.command.add(["Gatos Magicos", "guide"], (arg) => {
+	mod.command.add(["kelsaik", "guide"], (arg) => {
 		if (!arg) {
 			Enabled = !Enabled;
-			mod.command.message("Gatos Magicos(Guide) " + (Enabled ? "(ON)" : "(OFF)"));
+			mod.command.message("Волшебные кошки(гайд) " + (Enabled ? "(вкл)" : "(выкл)"));
 		} else {
 			switch (arg) {
 				case "st":
@@ -256,12 +256,12 @@ module.exports = function Tera_Guide(mod) {
 			if (msg_Id==151) { // 进入灵魂 - 78151
 				inverted = true;
 				nextMsg = nextMsg+3;
-				sendMessage(("Into -> " + VS_TipMsg[nextMsg]), 25);
+				sendMessage(("Внутрь -> " + VS_TipMsg[nextMsg]), 25);
 			}
 			if (msg_Id==152) { // 挺能撑的 - 78152
 				inverted = false;
 				nextMsg = nextMsg-3;
-				sendMessage(("Out  -> " + VS_TipMsg[nextMsg]), 25);
+				sendMessage(("Наружу  -> " + VS_TipMsg[nextMsg]), 25);
 			}
 			// 在神的面前不要掉以轻心 - 78155
 		}
