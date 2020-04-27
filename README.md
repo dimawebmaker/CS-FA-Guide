@@ -1,4 +1,4 @@
-# CS-FA-Guide
-Guia para CS y FA Español
+# Тера Келсай арена безумия гайд
+Перевод с испанского. Нужно фиксить перевод
 
 Original Guide: http://tiny.cc/crvhmz from ZC.
